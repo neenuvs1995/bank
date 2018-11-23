@@ -1,0 +1,110 @@
+#header{
+	width:100%;
+	height:100px;
+	background-color: #2d8fdc;
+	}
+#logo{
+	display:inline-block;
+	width:100px;
+	height:100px;
+	float:left;
+	}
+#acc{
+	display:inline-block;
+	float:left;
+	width:200px;;
+	height:100px;
+	background-color:#2d8fdc;
+	font-size:17pt;
+	color:white;
+	font-weight:bold;
+	line-height: 100px;
+}
+#heading{
+	float:left;
+	font-size:25pt;
+	color:white;
+	font-weight:bold;
+	width:750px;
+	height:100px;
+	display:inline-block;
+	vertical-align:middle;
+	text-align:center;
+	line-height: 100px;
+	}
+#side{
+	background-color: #2d8fdc;
+	height:500px;
+	width:30px;
+	display:inline-block;
+	//margin-left:100px;
+	}
+#content{
+	display:inline-block;
+	border:3px solid  #2d8fdc;
+	border-radius:15px;
+	height:700px;
+	width:500px;
+	margin-left:10px;
+	}
+#data
+{
+	margin-top:10px;
+	width:600px;
+	height:700px;
+	margin-left:350px;
+	//border:1px solid;
+}
+#labeltext
+{
+	margin-top:25px;
+}
+#lb{
+	width:120px;
+	text-align:right;
+	display:inline-block;
+	margin-left:50px;
+}
+#txt{
+	margin-left:10px;
+	border-radius:5px;
+}
+#sub{
+	margin-left:200px;
+	margin-top:20px;
+	width:100px;
+	height:30px;
+}
+#hd{
+		margin-left:450px;
+		width:300px;
+		height:50px;
+		background-color: #2d8fdc;
+		color:white;
+		text-align:center;
+		display:inline-block;	
+		//vertical-align:middle;
+		line-height:20px;
+}
+#log{
+	background-color: #A8A8;
+	margin-left: 25px;
+	margin-top:20px;
+	border:2px solid #2d8fdc;
+	border-radius: 10px;
+	height:200px;
+	width:530px;
+
+}
+
+#loghd{
+	background-color: #A8A8;
+	width:100px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	font-size:12pt;
+	font-weight: bold;
+	margin-left:250px;
+	margin-top:100px;
+}

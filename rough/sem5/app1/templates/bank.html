@@ -1,0 +1,72 @@
+<html>
+<head>
+<style>input[type=text] {
+
+    	box-sizing: border-box;
+
+    	border-bottom: 2px solid black;
+    	padding: 5px 20px;
+	}
+td	{
+	font-size:150%;
+	}
+th	{
+	font-size:90%;
+	}
+textarea{
+	box-sizing: border-box;
+   
+    	border-bottom: 2px solid black;
+    	
+    	padding: 5px 20px;
+	}
+fieldset{
+	border:2px solid darkred;
+	}
+</style>
+</head>
+<body>
+<form>
+<h1 style="color:darkred">
+<center><i><b>NEW ACCOUNT</i></center></h1>
+<fieldset>
+<legend style="color:darkred;"><b><h2>GETTING STARTED </h2></b></legend>
+<table>
+<tr><th>Name</th>
+<td><input type="text" name="text1"></td></tr>
+<tr><th>Parent Name</th>
+<td><input type="text" name="text2"></td></tr>
+<tr><th>DOB</th>
+<td><input type="text" name="text3" value="DD/MM/YYYY"></td></tr>
+<tr><th>Gender</th>
+<td><input type="radio" name="gender" value="Male" checked/>Male
+<input type="radio" name="gender" value="Female"/>Female
+</td></tr>
+<tr>
+<th>Address</th>
+<td> <textarea name="message" rows="5" cols="30"></textarea></td></tr>
+<tr><th>Phone no</th>
+<td><input type="text" name="text4"></td></tr>
+<tr><th>Email ID</th>
+<td><input type="text" name="text5"></td></tr>
+<tr><th>Country</th><td><input type="text"></td></tr>
+</table>
+</fieldset>
+<fieldset><legend style="color:darkred;"><b><h2>OPEN YOUR ACCOUNT IN </h2></b></legend>
+<table><tr>
+<td><select name="fr"><option>--Select State--</option>
+	</select></td>
+<td><select name="fd">
+<option>--Select District--</option>
+	</select></td>
+<td><select name="fg"><option>--Select Branch--</option>
+	</select></td></tr></table>
+<input type="checkbox" name="lr"><h2>I authorize South Indian Bank & its representatives to call me or SMS me with reference to my application ID</h2><br>
+</fieldset>
+<center><input type="Submit" name="ht" value="submit"></center>
+</form>
+
+
+
+</body>
+</html>
